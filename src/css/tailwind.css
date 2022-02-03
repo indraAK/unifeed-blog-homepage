@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+.navbar-link {
+  @apply text-gray-500 font-medium hover:text-gray-700;
+}
+
+.article {
+}
+
+.article-img {
+  @apply aspect-video rounded-md drop-shadow-sm;
+}
+
+.article-body {
+  @apply flex flex-col;
+}
+
+.article-title {
+  @apply leading-snug text-[22px] lg:text-[28px] xl:text-[34px] text-slate-900 mt-5 font-bold;
+}
+
+.article-text {
+  @apply mt-3 mb-6 text-slate-700 lg:text-lg;
+}
+
+.author {
+  @apply flex items-center;
+}
+
+.author-profile-img {
+  @apply w-12 h-12 rounded-full mr-4;
+}
+
+.author-name {
+  @apply text-sm font-bold text-gray-900;
+}
+
+.author-occupation {
+  @apply text-sm font-semibold text-slate-500;
+}
